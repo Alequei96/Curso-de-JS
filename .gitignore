@@ -105,3 +105,7 @@ dist
 
 #configuracion de visual studio code
 .vscode
+
+main.html
+students.json
+home.js
