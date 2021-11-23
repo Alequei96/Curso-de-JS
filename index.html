@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="Proyecto 1/css/style.css">
-    <title>Reto 1</title>
+    <title>Retos de JS</title>
 </head>
 
 <body>
@@ -25,6 +25,32 @@
         <div class="flex-box-container-1">
             <div id="flex-box-result"></div>
         </div>
+    </div>
+
+    <div class="container2">
+        <h2> Challenge 2: Cat generator </h2>
+        <button class="btn btn-success" id="cat-generator" onclick="generarmichis()"> Generate Cat</button>
+
+        <div class="flex-box-container-2" id="flex-cat-generator">
+            <img src="http://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
+
+        </div>
+
+    </div>
+    <div class="container3">
+        <h2> Challenge 3: Rock, Scissor and Paper game </h2>
+
+        <div class="flex-box-container-3" id="flex-game-genertor">
+            <img id="rock"
+                src="https://images.unsplash.com/photo-1584715642381-6f1c4b452b1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+                height=150 width=150 alt="" onclick="juego(this)">
+            <img id="paper"
+                src="https://images.unsplash.com/photo-1520004434532-668416a08753?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+                height=150 width=150 alt="" onclick="juego(this)">
+            <img id="scissors" src="https://images.unsplash.com/photo-1587115508501-2628609cbea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" height=150 width=150 alt=""
+                onclick="juego(this)">
+        </div>
+
     </div>
 
     <script src="Proyecto 1/js/script.js"></script>
